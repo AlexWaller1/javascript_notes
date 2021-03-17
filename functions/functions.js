@@ -30,7 +30,8 @@ heyBodhi(); */
 /* var myGlobal = 10;
 
    function fun1() {
-
+        oopsGlobal = 5; if leave var out when inside of function the variable
+                        will remain global
    }
 
    function fun2(){
@@ -42,4 +43,34 @@ heyBodhi(); */
            output += " oopsGlobal: " + oopsGlobal;
        }
        console.log(output);
-   }
+   }  */
+
+   // Local Scope and Functions
+
+   // variables declared within functions as well as function parameters have 
+   // local scope
+   /*
+      function myLocalScope() {
+          var myVar = 5; variable only readable within the function
+          console.log(myVar);
+      }
+
+      myLocalScope(); this will be able log myVar
+
+      console.log(myVar); console will not be able to read myVar because it is trying
+      to read the variable outside of the function. */
+
+      // Global vs. Local Scope in Functions
+      // it is possible to have local and global vraiables with the same name
+      // in that situation the local variable takes precedence over the global variable
+
+      /*
+         var outerWear = "T-Shirt"; global variable because it is declared outside of
+                          a function
+
+         function myOutfit() {
+
+            return outerwear;
+         }
+
+         console.log(myOutfit());
