@@ -4,7 +4,7 @@
     console.log('Hi, Bodhi!');
 }
 
-heyBodhi(); */
+heyBodhi(); // will log 'Hi, Bodhi' */
 
 // Functions always have the parentheses () at the end which
 // can pass arguments
@@ -30,7 +30,7 @@ heyBodhi(); */
 /* var myGlobal = 10;
 
    function fun1() {
-        oopsGlobal = 5; if leave var out when inside of function the variable
+        oopsGlobal = 5; if leave 'var' out when inside of function the variable
                         will remain global
    }
 
@@ -42,7 +42,7 @@ heyBodhi(); */
        if (typeof oopsGlobal != 'undefined') {
            output += " oopsGlobal: " + oopsGlobal;
        }
-       console.log(output);
+       console.log(output); // console will log "myGlobal: 10"
    }  */
 
    // Local Scope and Functions
@@ -172,5 +172,41 @@ heyBodhi(); */
       console.log(trueOrFalse(true)); // will return "Yes, that was true" */
 
       // Comparison with the Equality Operator
+      // most common boolean operator in JavaScript is the Equality Operator
+      /*
+         function testEqual(val) {
+             if (val == 12) {
+                 return "Equal";
+             }
+             return "Not Equal";
+         }
+
+         console.log testEqual(10); // would log "Not Equal" */
+
+         // Comparison with the Strict Equality Operator
+         // use === instead of ==, will not let 3 === '3' be equal because data types are not
+         // the same
+         /*
+            function testStrict(val) {
+                if (val === 7) {
+                    return "Equal";
+                }
+                return "Not Equal";
+            }
+
+           console.log(testStrict('7')); // would return "Not Equal"
+
+           // Practice Comparing Different Values
+           /*
+             function compareEquality(a, b) {
+                 if (a == b) {
+                     return "Equal";
+                 }
+                 return "Not Equal";
+             }
+
+             console.log(compareEquality(compareEquality(10, "10"));
+             // would return "Equal" because of the == */
+         
 
 
