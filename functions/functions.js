@@ -69,8 +69,108 @@ heyBodhi(); */
                           a function
 
          function myOutfit() {
+            var outerwear = "sweater"; console.log will return "sweater" over "T-shirt"
 
             return outerwear;
          }
 
-         console.log(myOutfit());
+         console.log(myOutfit()); will return "sweater"
+         console.log(outerWear); will return "T-shirt" */
+
+         // Return a Value from a Function with Return
+         // you can return a value from a function with 'return'
+
+         /* 
+            function minusSeven(num) {
+                return num -7;
+            }
+
+            console.log(minusSeven(10)); will return 3
+
+            function timesFive(num) {
+                return num * 5;
+            }
+
+            console.log(timesFive(5)); will return 25 */
+
+    //Understanding Undefined Value Returned from a Function
+    // Functions can have return values, but they don't have to
+
+    /*
+      var sum = 0;
+      function addThree() {
+          sum = sum + 3;
+      } 
+        */
+    
+    // if return value is not specified, then the return value will simply be undefined
+
+    // Assignment with a Returned Value
+
+    /* var changed = 0;
+
+    function change(num) {
+        return (num + 5) / 3;
+    }
+
+    changed = changed(10);
+
+    var processed = 0;
+
+    function processArg(num) {
+        return (num + 3) / 5;
+    }
+
+    processed = processArg(7); which will evaluate to 2
+
+    // Stand In Line
+    // a queue is an abstract data structure in which items are kept in order
+    /*
+      function nextInLine(arr, item) {
+
+        arr.push(item); // will push new item to back of an array
+        return arr.shift(); // will return first item in the array
+      }
+
+    var testArr = [1,2,3,4,5];
+
+    console.log("Before: " + JSON.stringify(testArr));
+    console.log(nextInLin(testArr, 6));
+    console.log("After: " + JSON.stringify(testArr));
+    // JSON.stringify will convert an item such as an array to a string that will be
+       printed to the console
+    
+    // console 1 will return Before: [1,2,3,4,5]
+    // console 2 will return 1
+    // console 3 will return After: [1,2,3,4,5,6]
+    */
+
+    // Boolean Values
+    // A JavaScript datatype that returns true or false
+    /*
+      function welcomeToBooleans() {
+          return true;
+      } */
+
+    // Use Conditional Logic with If Statements
+    /*
+      function ourTrueOrFalse(isItTrue) {
+          if (isItTrue) {
+              return "Yes, it's true";  // will return if condition is met
+          }
+          return "No, it's false"; // will return if condition is not met
+      }
+
+      function trueOrFalse(wasThatTrue){
+          if (wasThatTrue) {
+              return "Yes, that was true";
+          }
+          return "No, that was false";
+
+      }
+
+      console.log(trueOrFalse(true)); // will return "Yes, that was true" */
+
+      // Comparison with the Equality Operator
+
+
