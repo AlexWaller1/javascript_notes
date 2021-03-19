@@ -24,3 +24,15 @@ in various parts of our program
 // The element property innerHTML gets or sets the HTML markup contained within that element.
 // To insert the HTML into the document rather than replace the contents of an element, 
 // use the method insertAdjacentHTML()
+
+// .target method
+// the target property of the event interface is a reference to the object onto which the
+// event was dispatched. 
+// e.target refers to the clicked <li> element
+
+// .contentEditable
+// the contentEditable property of the HTMLElement interface specifies whether or not the
+// element is editable. This enumerated attribute can have the following values:
+// 'true' indicates that the element is contentEditable
+// 'false' indicates that the element cannot be edited.
+// 'inherit' indicates that the element inherits its parent's editable status.
