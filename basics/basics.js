@@ -17,5 +17,10 @@ in various parts of our program
 // In the example on top of this page, this refers to the hybrid object.
 
 // the bind method
-// the bind() method returns a new function, when invoked, has its this sets to a specific value.
+// the bind() method returns a new function, when invoked, has its this. sets to a specific value.
 // the bind method needs an argument.
+
+// innerhtml
+// The element property innerHTML gets or sets the HTML markup contained within that element.
+// To insert the HTML into the document rather than replace the contents of an element, 
+// use the method insertAdjacentHTML()
