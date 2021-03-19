@@ -3,3 +3,19 @@ the console, this allows us to check what variables are
 in various parts of our program 
 
 // this.
+// The behavior of this. in classes and functions is similar, since classes are functions
+// under the hood
+// winthin a class constructor, this. is a regualr object. All non-static methods within the 
+// class are added to the prototype of this.
+// the JavaScript this. keyword refers to the object it belongs to
+// It has different values depending on where it is used:
+// In a method, this refers to the owner object
+// Alone, this refers to the global object
+// In a function, this refers to the global object.
+// In an event, this refers to the element that received the event.
+// In an object method, this refers to the owner of the method.
+// In the example on top of this page, this refers to the hybrid object.
+
+// the bind method
+// the bind() method returns a new function, when invoked, has its this sets to a specific value.
+// the bind method needs an argument.
