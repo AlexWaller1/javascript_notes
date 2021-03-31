@@ -36,3 +36,5 @@ in various parts of our program
 // 'true' indicates that the element is contentEditable
 // 'false' indicates that the element cannot be edited.
 // 'inherit' indicates that the element inherits its parent's editable status.
+
+// preventDefault()
