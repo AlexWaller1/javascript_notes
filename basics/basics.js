@@ -38,3 +38,36 @@ in various parts of our program
 // 'inherit' indicates that the element inherits its parent's editable status.
 
 // preventDefault()
+
+/*
+
+  const BASE_URL = "http://localhost:3000"
+// let USERS = []
+    
+// read - fetch users index
+
+function fetchUsers(){
+    fetch(`${BASE_URL}/users`)
+    .then(resp => resp.json())
+    .then(users => {
+        // we do something withthe data fetched, the data is still composed of Ruby Objects
+        // clear existing list
+        //USERS = [];
+        for (const user of users){
+            // this will convert them to JavaScript Objects
+            let u = new User(user.id, user.name, user.username, user.email)
+            // push u on to list
+            //USERS.push(u);
+            u.renderUser()
+        } 
+
+
+
+        function filterArray(users){
+let USERNAMES = [];
+for (const user of users) {
+    USERNAMES.push(user.name)
+
+}
+ return USERNAMES
+} */
